@@ -1,0 +1,66 @@
+/* Customer-facing hierarchy; the approved brand and layouts remain the base. */
+.site-header nav{gap:25px;font-size:13px}
+.nav-contact,.button,.text-button{font-size:13px}
+.hero{padding-block:42px 44px}
+.hero h1{font-size:clamp(42px,4.5vw,67px);letter-spacing:-2.3px;margin:25px 0}
+.hero-intro{font-size:17px;max-width:39ch;color:#d2d9ce}
+.hero-eyebrow{font-size:11px;letter-spacing:.04em}
+.hero-actions{gap:25px;margin-top:28px}
+.cta-context{font-size:12px;line-height:1.6;color:#bbc8b6;margin-top:13px;max-width:45ch}
+.product-status{display:flex;align-items:center;gap:9px;font-size:12px;line-height:1.6;margin-top:25px;color:#c4ceb9}
+.team-photo{aspect-ratio:1.02}
+.hero-figure figcaption{font-size:11px;color:#bcc8b7}
+.photo-contours{opacity:.55}
+.section-space{padding-block:96px}
+.journey{padding-top:88px}
+.heading-row>p{font-size:15px;max-width:34ch}
+.journey-controls{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:27px}
+.journey-controls .journey-hint{display:block;margin:0;font:12px/1.6 var(--sans);color:#52624b}
+.journey-controls .motion-toggle{position:static;width:auto;height:auto;min-height:44px;display:inline-flex;gap:10px;border:0;border-bottom:1px solid #acb99d;background:transparent;backdrop-filter:none;color:#4b5b40;font:12px/1.6 var(--sans);padding:8px 0}
+.journey-track{margin-top:26px}
+.step-button{min-height:48px}
+.step-copy>p{font-size:14px;line-height:1.65}
+.step-copy .eyebrow,.workflow-meta,.example-label,.coach-perspective .eyebrow{font-size:11px;letter-spacing:.04em;color:#53634a}
+.scene-kicker{font-size:12px;color:#53634a}
+.coach-perspective p:last-child{font-size:13px}
+.scene-outcome{font-size:12px;color:#3c512f}
+.workflow-footnote>p{font:11px/1.6 var(--sans);color:#52624a}
+.live-situations>span{font-size:11px;color:#53634a}
+.live-situations button{font-size:11px;color:#475b3b;min-height:44px}
+.fit-intro{font-size:17px;color:#4e5c46;max-width:64ch;margin-top:28px}
+.role-grid{margin-top:46px;gap:75px}
+.role-label .eyebrow{font-size:11px;color:#516047}
+.role h3{font-size:29px}
+.role>p,.integrations>div>p:not(.eyebrow){font-size:15px;color:#485a40;max-width:46ch}
+.integrations{margin-top:50px;padding-top:33px;gap:75px}
+.integrations .eyebrow{font-size:11px;color:#53634a}
+.integration-tools li{font-size:14px}
+.people{gap:64px}
+.people-intro h2{font-size:clamp(42px,4.3vw,62px)}
+.people-intro>p:not(.eyebrow){font-size:15px}
+.person-tech{margin-top:60px}
+.portrait-label{font-size:10px;color:#485b40}
+.person figcaption p{font-size:12px;color:#53634a}
+.underlined-link{font-size:13px}
+.faq-list summary{font-size:15px}
+.faq-list details>p{font-size:14px}
+.contact-inner{padding-block:85px 70px}
+.contact-bottom p{font-size:15px;max-width:51ch}
+.contact-action{flex-shrink:0}
+.contact-action .cta-context{font-size:12px;margin-top:12px}
+.footer-meta{font-size:11px}
+.dialog-intro{font-size:15px;margin-top:22px;max-width:42ch}
+dialog h2{font-size:42px}
+dialog .eyebrow{font-size:11px}
+form label{font-size:13px}
+form textarea::placeholder{font-size:14px;color:#6e7b65}
+.js .hero-copy>*,.js .hero-figure{animation:none}
+.js .reveal{opacity:1;transform:none;transition:none}
+.person:hover .portrait-frame img{transform:none}
+.button:hover{transform:none}
+.scene-changing .scene-content{animation-duration:.24s}
+@media(max-width:1150px){.hero h1{font-size:50px}.role-grid,.integrations{gap:45px}.site-header nav{gap:20px}}
+@media(max-width:1000px){.hero h1{font-size:43px}.hero-intro{font-size:15px}.people-intro{display:block}.people-intro>p:not(.eyebrow){margin-top:24px;max-width:58ch}.people-intro h2 br{display:inline}.people-portraits{max-width:600px}.people-intro .underlined-link{margin-top:20px}}
+@media(max-width:800px){.hero{padding-top:32px}.hero h1{font-size:clamp(42px,7.2vw,57px)}.hero-intro{font-size:16px;max-width:48ch}.team-photo{aspect-ratio:1.12}.section-space{padding-block:75px}.journey{padding-top:65px}.step-copy{grid-template-columns:1fr}.step-copy>p{font-size:13px;max-width:55ch}.step-copy h3 br{display:none}.step-copy h3{font-size:25px}.workflow-body{padding:22px}.workflow-toolbar{padding:14px 22px}.scene-content{padding-block:24px;min-height:0}.scene-content blockquote{min-height:0;font-size:30px}.workflow-window[data-stage='1'] blockquote{min-height:0;font-size:28px}.coach-perspective h4{font-size:18px}.scene-rule{margin-block:20px}.people-intro h2 br{display:block}}
+@media(min-width:601px) and (max-width:1000px) and (min-height:850px){body.scroll-story .step-copy{grid-template-columns:1fr 1.2fr;gap:5px 20px}body.scroll-story .step-copy .eyebrow{display:none}body.scroll-story .journey-sticky{gap:17px}body.scroll-story .workflow-toolbar{padding-block:10px}body.scroll-story .workflow-body{padding:18px}body.scroll-story .scene-content{padding-top:22px;padding-bottom:20px}}
+@media(max-width:500px){.hero h1{font-size:clamp(35px,9.4vw,44px);letter-spacing:-1.6px}.hero-eyebrow{font-size:10px;max-width:34ch}.hero-intro{font-size:15px;max-width:36ch}.hero-actions{gap:12px 22px}.hero-actions .button,.text-button{font-size:12px}.product-status{margin-top:20px}.hero-grid{gap:30px}.team-photo{aspect-ratio:1.02}.hero-figure figcaption{font-size:10px}.hero-figure figcaption>span:last-child{display:none}.cta-context{font-size:12px}.journey-controls{gap:12px;align-items:flex-start}.journey-controls .journey-hint{max-width:12ch}.journey-controls .motion-toggle{font-size:11px}.heading-row h2{font-size:39px}.heading-row>p{font-size:14px}.step-selector{gap:10px}.step-button{font-size:11px;gap:7px}.step-button>span{display:none}.workflow-meta,.example-label,.coach-perspective .eyebrow{font-size:10px}.workflow-footnote>p{font-size:11px}.live-situations button{font-size:10px;padding:8px}.coach-perspective p:last-child{font-size:12px}.scene-outcome{font-size:11px}.fit-intro{font-size:15px}.role-grid{gap:33px}.role>p,.integrations>div>p:not(.eyebrow){font-size:14px}.integrations{gap:22px;margin-top:38px}.integration-tools li{font-size:13px}.people-intro>p:not(.eyebrow){font-size:14px}.person figcaption p{font-size:11px}.portrait-label{font-size:8px}.faq-list summary{font-size:14px}.faq-list details>p{font-size:13px}.contact-inner{padding-block:65px 50px}.contact-inner h2{font-size:44px}.contact-bottom p{font-size:14px}.footer-meta{font-size:11px}.form-row{grid-template-columns:1fr}}
